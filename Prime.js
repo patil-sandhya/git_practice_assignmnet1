@@ -5,7 +5,4 @@ for(let i=0;i<=num;i++){
         count++
     }
 }
-if(count == 1){
-    console.log("prime")
-}
-console.log(count)
+(count==2)?console.log("Prime"):console.log("Not a prime");
